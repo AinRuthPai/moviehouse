@@ -1,0 +1,90 @@
+@import "reset.css";
+@import "header.css";
+@import "movie.css";
+@import "drawing.css";
+@import "endbar.css";
+@import "todo.css";
+@import "modal.css";
+
+body {
+    margin: 20px 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* .container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 100vh;
+    font-size: 45px;
+    font-weight: 800;
+} */
+.container_text span:last-child {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.bgImg_top {
+    width: 75vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.imgbox {
+    display: flex;
+    width: 1000vw;
+    height: 90vh;
+}
+
+.imgbox img {
+    display: block;
+    width: 75vw;
+    height: 90vh;
+    object-fit: contain;
+}
+
+.slide-btn {
+    width: 75vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+}
+
+.prev,
+.next {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.prev:hover,
+.next:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.prev:disabled,
+.next:disabled {
+    cursor: default;
+    color: rgba(255, 255, 255, 0.164);
+}

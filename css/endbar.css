@@ -1,0 +1,25 @@
+.endbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.787);
+    color: rgba(255, 255, 255, 0.911);
+    width: 80vw;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.endbar_title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.endbar_text {
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.endbar_copyright {
+    margin-top: 10px;
+}

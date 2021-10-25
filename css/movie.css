@@ -1,0 +1,46 @@
+.movie {
+    display: flex;
+    justify-content: center;
+}
+
+.movie_text {
+    width: 42vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: aqua;
+}
+
+.movie_img {
+    width: 43vw;
+    height: 50vh;   
+    background-image: url('../img/movie_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.movie_reverse {
+    display: flex;
+    justify-content: center;
+}
+
+.movie_text_reverse {
+    width: 43vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.movie_img_reverse {
+    width: 42vw;
+    height: 50vh;   
+    background-image: url('../img/movie_img_reverse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}

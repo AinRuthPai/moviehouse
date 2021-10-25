@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <title>Movie House</title>
+</head>
+
+<body class="body">
+
+    <header>
+        <div class="header_logo">
+            <i class="fas fa-film fa-lg"></i>
+            <a href="index.html">Movie House</a>
+        </div>
+        <ul class="header_menu">
+            <li><a href="#">movie</a></li>
+            <li><a href="#">photo</a></li>
+            <li><a href="#">scene</a></li>
+            <li><a class="info-open-btn">info (Modal)</a></li>
+            <div class="info">
+                <div class="info-body">
+                    <div class="info-title">Info</div>
+                    테스트
+                    <button class="info-close-btn">Close</button>
+                </div>
+            </div>
+
+        </ul>
+        <div class="header_icons">
+            <a href="#"> <i class="fab fa-facebook-square fa-2x"></i> </a>
+            <a href="#"> <i class="fab fa-instagram-square fa-2x"></i> </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="bgImg_top">
+                <div class='slide-btn'>
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="imgbox">
+                    <img src="img/imgSlide_01.jpg" />
+                    <img src="img/imgSlide_02.jpg" />
+                    <img src="img/imgSlide_03.png" />
+                    <img src="img/imgSlide_04.jpg" />
+                </div>
+
+                <!-- <div class="container_text">
+                    <span>Welcome</span>
+                    <span>movie house</span>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="movie">
+            <div class="movie_text">movie text</div>
+            <div class="movie_img"></div>
+        </div>
+        <div class="movie_reverse">
+            <div class="movie_img_reverse"></div>
+            <div class="movie_text_reverse">movie text</div>
+        </div>
+
+        <div class="drawing">
+            <div class="drawing_title">DRAWING</div>
+            <div class="drawing_text">source by pinterest</div>
+            <div class="drawing_line"></div>
+        </div>
+
+        <div class="draw_img_1">
+            <div class="imgBox_1"></div>
+            <div class="imgBox_2"></div>
+        </div>
+        <div class="draw_img_2">
+            <div class="imgBox_3"></div>
+            <div class="imgBox_4"></div>
+        </div>
+
+        <div class="todo-menu">
+            <div class="todo-title">TO DO LIST</div>
+            <div class="todo-text">write your to do list :)</div>
+            <div class="todo-line"></div>
+        </div>
+
+        <div class="todo">
+            <form class="todo-form">
+                <input type="text" maxlength="15" required>
+            </form>
+            <ul class="todo-list">
+
+            </ul>
+        </div>
+
+        <div class="endbar">
+            <div class="endbar_title">Movie House</div>
+            <div class="endbar_text">서울시 영등포구 | TEL: 010-XXXX-XXXX
+                <div class="endbar_copyright">
+                    Copyright 2021 MovieHouse. All Rights Reserved.
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/slide.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

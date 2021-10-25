@@ -1,0 +1,57 @@
+.drawing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.drawing_title {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.drawing_line {
+    border-right: 1px solid black;
+    height: 10vh;
+    margin: 30px 0px;
+}
+
+.draw_img_1,
+.draw_img_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBox_1,
+.imgBox_2,
+.imgBox_3,
+.imgBox_4 {
+    border: 1px solid black;
+    width: 40vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.imgBox_1 {
+    background-image: url('../img/imgBox_1.jpg');
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.imgBox_2 {
+    background-image: url('../img/imgBox_2.jpg');
+    margin-left: 10px;
+}
+
+.imgBox_3 {
+    background-image: url('../img/imgBox_3.jpg');
+    margin-right: 10px;
+}
+
+.imgBox_4 {
+    background-image: url('../img/imgBox_4.jpg');
+    margin-left: 10px;
+}
